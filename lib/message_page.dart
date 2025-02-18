@@ -47,8 +47,8 @@ class MessagePage extends StatelessWidget {
       child: Column(
         children: [
           const CircleAvatar(
+            // backgroundImage: NetworkImage("http://via.placeholder.com/150"),
             radius: 30,
-            backgroundImage: NetworkImage("http://via.placeholder.com/150"),
           ),
           kHeight(5),
           Text(
