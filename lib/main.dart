@@ -1,4 +1,5 @@
 import 'package:chatpebble/message_page.dart';
+import 'package:chatpebble/sample.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: const MessagePage(),
+      home: const SampleScreen(),
     );
   }
 }
